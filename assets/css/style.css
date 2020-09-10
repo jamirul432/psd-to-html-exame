@@ -1,0 +1,461 @@
+font-family: 'Open Sans',
+sans-serif;
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/*==============================================
+                   header_area
+ ==============================================*/
+.header {
+    width: 100%;
+    float: left;
+    padding: 21px 5px;
+
+}
+
+.logo {
+    width: 40%;
+    float: left;
+}
+
+.logo img {
+    width: 270px;
+    margin: 20px 10px;
+    padding: 5px 0;
+}
+
+.menu {
+    width: 60%;
+    float: left;
+    padding: 34px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 7px 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #c8c8c8;
+    font-size: 17px;
+}
+
+/*===========================================
+                   header_area-END
+ ==========================================*/
+/*===========================================
+                  BANNER_SECTION
+ ==========================================*/
+.banner_section {
+    width: 100%;
+    float: left;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.banner_section_content {
+    padding: 150px 0px;
+}
+
+.banner_section_content h1 {
+    font-size: 49px;
+    text-align: center;
+    color: #fff;
+}
+
+.banner_section_content h4 {
+    text-align: center;
+    font-size: 33px;
+    padding: 30px 0;
+    color: #fff;
+}
+
+.banner_section_content button {
+    background-color: #99c50a;
+    padding: 17px 27px;
+    color: #fff;
+    margin: 16px 455px;
+    border: none;
+    border-radius: 4px;
+}
+
+/*===========================================
+                  BANNER_SECTION END
+ ==========================================*/
+/*===========================================
+                 SHAPE_AREA
+ ==========================================*/
+.shape_area {
+    width: 100%;
+    float: left;
+    padding: 90px 0;
+}
+
+.shape {
+    text-align: center;
+}
+
+.shape img {}
+
+.shape h2 {
+    padding: 43px 0;
+    font-size: 69px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.paragrap {
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+/*===========================================
+                 SHAPE_AREA END
+ ==========================================*/
+/*===========================================
+                Section_area
+ ==========================================*/
+
+.section_area {
+    width: 50%;
+    float: left;
+    padding: 43px 0;
+    background-color: #e2f8ff;
+}
+
+.gallary_one {
+    width: 50%;
+    float: left;
+
+}
+
+.gallary_one img {
+    float: left;
+    padding: 80px;
+}
+
+.gallary_content {
+    padding: 35px 0;
+}
+
+.gallary_content h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.gallary_content p {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.gallary_button {
+    margin: 24px 0px;
+    padding: 15px 24px;
+    background-color: #26a6d1;
+    border: none;
+    border-radius: 4px;
+    transition: 1s;
+    color: #fff;
+}
+
+.gallary_button:hover {
+    background-color: #99c50a;
+    color: #fff;
+}
+
+.section_area_one {
+    width: 50%;
+    float: left;
+    background-color: #f5f9eb;
+    height: 388px;
+}
+
+.gallary_two {
+    width: 71%;
+    float: left;
+}
+
+.gallary_two img {
+    float: left;
+    padding: 80px;
+}
+
+.gallary_content_two {
+    padding: 35px 0;
+}
+
+.gallary_content_two h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.gallary_content_two p {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.button_two {
+    margin: 24px 0px;
+    padding: 15px 24px;
+    background-color: #add136;
+    border: none;
+    border-radius: 4px;
+    transition: 1s;
+    color: #fff;
+}
+
+.button_two:hover {
+    background-color: #26a6d1;
+    ;
+    color: #fff;
+}
+
+/*===========================================
+                Section_area END
+ ==========================================*/
+/*===========================================
+               services_are
+ ==========================================*/
+.services_are {
+    width: 100%;
+    float: left;
+    padding: 80px 0;
+}
+
+.services_content {
+    width: 54%;
+    float: left;
+}
+
+.services_content h4 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.services_content p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.services_button {
+    float: right;
+    padding: 26px 0;
+}
+
+.services_btn {
+    padding: 15px 18px;
+    background: transparent;
+    border: none;
+    border: 1px solid #b6b6b6;
+    border-radius: 8px;
+}
+
+
+
+
+.porfolio {
+    width: 33%;
+    float: left;
+    padding: 60px 0;
+}
+
+.portfolio_one {
+    width: 33.33%;
+    float: left;
+    background-image: url(../img/porfolio-==1.jpg);
+    background-size: cover;
+    height: 278px;
+    width: 332px;
+    border-radius: 8px;
+}
+
+.portfolio_one h3 {
+    font-size: 20px;
+    color: #fff;
+    margin: 220px auto;
+    background-color: #26a6d1;
+    width: 182px;
+    padding: 8px 22px;
+    border-radius: 5px;
+}
+
+.portfolio_pragrap {
+    width: 90%;
+    background-color: #f9f9f9;
+    border: 1px solid #e5e5e5;
+}
+
+.portfolio_pragrap h1 {
+    font-size: 26px;
+    margin: 0px 0;
+}
+
+.portfolio_pragrap p {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 18px 0;
+}
+
+.portfolio_pragrap h6 {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.portfolio_pragrap h5 {
+    font-size: 13px;
+    font-weight: 300;
+    float: right;
+    margin: -24px 0;
+}
+
+.portfolio_pragrap h4 {
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0px 90px;
+    padding: 13px;
+}
+
+.fas.fa-caret-right {
+    float: right;
+    margin: -32px 99px;
+    font-size: 27px;
+    color: #add136;
+}
+
+
+
+.inner_porfolio {
+    width: 33%;
+    float: left;
+    padding: 60px 0;
+}
+
+.portfolio_two {
+    width: 33.33%;
+    float: left;
+    background-image: url(../img/portfolio==2.jpg);
+    background-size: cover;
+    height: 278px;
+    width: 332px;
+    border-radius: 8px;
+}
+
+.portfolio_two h3 {
+    font-size: 20px;
+    color: #fff;
+    margin: 220px auto;
+    background-color: #26a6d1;
+    width: 182px;
+    padding: 8px 22px;
+    border-radius: 5px;
+}
+
+.portfolio_pragrap {
+    width: 90%;
+    background-color: #f9f9f9;
+    border: 1px solid #e5e5e5;
+}
+
+.portfolio_pragrap h1 {
+    font-size: 26px;
+    margin: 0px 0;
+}
+
+.portfolio_pragrap p {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 18px 0;
+}
+
+.portfolio_pragrap h6 {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.portfolio_pragrap h5 {
+    font-size: 13px;
+    font-weight: 300;
+    float: right;
+    margin: -22px 18px;
+}
+
+.portfolio_pragrap h4 {
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0px 90px;
+    padding: 13px;
+}
+
+.fas.fa-caret-right {
+    float: right;
+    margin: -32px 99px;
+    font-size: 27px;
+    color: #add136;
+}
+
+/*===========================================
+               services_are END
+ ==========================================*/
+/*===========================================
+               social_area
+ ==========================================*/
+.social_area {
+    width: 100%;
+    float: left;
+    padding: 50px 0;
+}
+
+.social_img img {
+    width: 120px;
+    margin: 5px 13px;
+}
+
+
+/* Footer Section Starts Here */
+
+.footer-main {
+    width: 100%;
+    float: left;
+}
+
+.footer-main span {
+    border-bottom: 1px solid lightgrey;
+    width: 100%;
+    display: block;
+}
+
+
+
+.copyright {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.copyright h3 {
+    font-size: 13px;
+    color: #848484;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+
+/* Footer Section Ends Here */
